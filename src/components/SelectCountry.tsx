@@ -10,8 +10,6 @@ type SelectCountryProps = {
 const SelectCountry: React.FC<SelectCountryProps> = (props) => {
     const { value, setValue, label } = props;
     const [ data ] = useAxios("https://restcountries.com/v3.1/all");
-
-
     
     const dataFilter = Array.isArray(data) ? data.filter(item => "currencies" in item) : [];
     const dataCountries = dataFilter.map(item => {
@@ -25,7 +23,7 @@ const SelectCountry: React.FC<SelectCountryProps> = (props) => {
            <Autocomplete
             value={value}
             disableClearable
-            onChange={(event, newValue) => {
+            onChange={(_, newValue) => {
               setValue(newValue)
             }}
             options={dataCountries}

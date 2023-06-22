@@ -2,12 +2,13 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 
 
-type CountryData = {
+export type CountryData = {
     data: string;
     flag: string;
     currencies: string;
-    common: string;
-    name: string;
+    name: { 
+        common: string;
+    };
 }
 
 type ErrorType = {
