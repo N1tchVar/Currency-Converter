@@ -13,20 +13,21 @@ Installation ⬇️
 Clone the repository to your local machine using the following command:
 
 
-```Copy code
-git clone https://github.com/N1tchVar/Currency-Converter.git```
+Copy code
+git clone https://github.com/N1tchVar/Currency-Converter.git
 Navigate to the project directory:
 
 
-``Copy code
-cd Currency-Converter```
+Copy code
+cd Currency-Converter
 Install the project dependencies using npm or yarn:
 
-```
+
 Copy code
 npm install
-# or
-yarn install```
+or
+yarn install
+
 Configuration ⚙️
 To use the Free Currency API, you need to obtain an API key by signing up on their website: https://www.freecurrencyapi.net/. Once you have the API key, follow the steps below to configure it in the application:
 
