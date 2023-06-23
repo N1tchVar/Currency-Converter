@@ -20,7 +20,7 @@ Install the project dependencies using npm or yarn:
 
 npm install
 or
-yarn install```
+yarn install
 
 Configuration ⚙️
 To use the Free Currency API, you need to obtain an API key by signing up on their website: https://www.freecurrencyapi.net/. Once you have the API key, follow the steps below to configure it in the application:
@@ -29,5 +29,5 @@ Create a new file called .env in the project's root directory.
 
 Open the .env file and add the following line:
 
-```API_KEY=YOUR_API_KEY```
-Replace YOUR_API_KEY with the API key you obtained from Free Currency API.
+API_KEY=YOUR_API_KEY
+Replace YOUR_API_KEY with the API key you obtained from Free Currency API.```
