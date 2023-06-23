@@ -12,30 +12,22 @@ npm (Node Package Manager) or yarn 🧶
 Installation ⬇️
 Clone the repository to your local machine using the following command:
 
-
-Copy code
-git clone https://github.com/N1tchVar/Currency-Converter.git
+git clone https://github.com/N1tchVar/Currency-Converter.git```
 Navigate to the project directory:
 
-
-Copy code
-cd Currency-Converter
+```cd Currency-Converter```
 Install the project dependencies using npm or yarn:
 
-
-Copy code
-npm install
+```npm install
 or
-yarn install
+yarn install```
 
 Configuration ⚙️
 To use the Free Currency API, you need to obtain an API key by signing up on their website: https://www.freecurrencyapi.net/. Once you have the API key, follow the steps below to configure it in the application:
 
-Create a new file called .env.local in the project's root directory.
+Create a new file called .env in the project's root directory.
 
-Open the .env.local file and add the following line:
+Open the .env file and add the following line:
 
-plaintext
-Copy code
-REACT_APP_API_KEY=YOUR_API_KEY
+```API_KEY=YOUR_API_KEY```
 Replace YOUR_API_KEY with the API key you obtained from Free Currency API.
