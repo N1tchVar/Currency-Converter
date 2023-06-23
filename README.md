@@ -12,13 +12,13 @@ npm (Node Package Manager) or yarn 🧶
 Installation ⬇️
 Clone the repository to your local machine using the following command:
 
-git clone https://github.com/N1tchVar/Currency-Converter.git```
+```git clone https://github.com/N1tchVar/Currency-Converter.git
 Navigate to the project directory:
 
-```cd Currency-Converter```
+cd Currency-Converter
 Install the project dependencies using npm or yarn:
 
-```npm install
+npm install
 or
 yarn install```
 
